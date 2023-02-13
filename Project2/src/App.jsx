@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="Card">
+      <div className="Card_Container">
       <div className="Card_Image">
         <a>
         <img src="src/assets/image-1.png">
@@ -37,6 +38,7 @@ function App() {
             <p>Creation of <strong>Jules Wyvern</strong></p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>

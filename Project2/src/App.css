@@ -4,4 +4,57 @@
 
 .Card {
   background-color: #15263F;
+  border-radius: 15px;
+}
+
+.Card_Container {
+  padding: 1rem;
+}
+
+.Card_Image {
+
+}
+
+.Card_Text {
+
+}
+
+.Card_Text_Header {
+
+}
+
+.Card_Text_Supporting {
+
+}
+
+.Card_Text_Group {
+
+}
+
+.Card_Text_Group_Price {
+
+}
+
+.Card_Text_Group_Time {
+
+}
+
+.Card_Divider {
+
+}
+
+.Card_Footer {
+
+}
+
+.Card_Footer_Group {
+
+}
+
+.Card_Footer_Image {
+
+}
+
+.Card_Footer_Text {
+  
 }
