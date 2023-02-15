@@ -35,7 +35,7 @@ function App() {
             <img src="src/assets/image-2.png"></img>
           </div>
           <div className="Card_Footer_Text">
-            <p>Creation of <strong>Jules Wyvern</strong></p>
+            <p className="Card_Footer_Text_Sup">Creation of <a className="Card_Footer_Text_Head"><strong>Jules Wyvern</strong></a></p>
           </div>
         </div>
       </div>

@@ -1,14 +1,18 @@
 #root {
-  max-width: 1280px;
+  min-width: 500px;
+  min-height: 600px;
 }
 
 .Card {
   background-color: #15263F;
   border-radius: 15px;
+  max-width: 350px;
+  margin: auto;
 }
 
 .Card_Container {
-  padding: 1rem;
+  padding: 24px;
+
 }
 
 .Card_Image {
@@ -16,45 +20,62 @@
 }
 
 .Card_Text {
-
+  display: inline;
 }
 
 .Card_Text_Header {
-
+  text-align: left;
+  color: white;
 }
 
 .Card_Text_Supporting {
-
+  color: #8BACD9;
 }
 
 .Card_Text_Group {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .Card_Text_Group_Price {
-
+  color: #00FFF8;
+  
 }
 
 .Card_Text_Group_Time {
-
+  color: #8BACD9;
 }
 
 .Card_Divider {
-
-}
-
-.Card_Footer {
-
+  width: auto;
+  background-color: #2E405A;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 0;
+  border: 0;
 }
 
 .Card_Footer_Group {
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .Card_Footer_Image {
-
+  justify-content: center;
+  width: 33px;
+  height: 33px;
 }
 
 .Card_Footer_Text {
-  
+ padding-left: 1rem;
+}
+
+.Card_Footer_Text_Sup {
+  color: #8BACD9;
+}
+
+.Card_Footer_Text_Head {
+  color: white;
 }
