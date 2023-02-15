@@ -7,10 +7,8 @@ function App() {
       <div className="Card">
       <div className="Card_Container">
       <div className="Card_Image">
-        <a>
-        <img src="src/assets/image-1.png">
-        </img>
-        </a>        
+        <img src="src/assets/image-1.png" className="Card_Image_Effect">
+        </img>       
       </div>
       <div className="Card_Text">
         <div className="Card_Text_Header">

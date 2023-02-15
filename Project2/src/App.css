@@ -12,11 +12,22 @@
 
 .Card_Container {
   padding: 24px;
-
 }
 
 .Card_Image {
+  display: block;
+  background-color: #00FFF8;
+  width: 302px;
+  height: 302px;
+  border-radius: 15px;
+}
 
+.Card_Image_Effect {
+  border-radius: 15px;
+}
+
+.Card_Image_Effect:hover {
+  opacity: 60%;
 }
 
 .Card_Text {
@@ -26,6 +37,12 @@
 .Card_Text_Header {
   text-align: left;
   color: white;
+}
+
+.Card_Text_Header:hover {
+  text-align: left;
+  color: #00FFF8;
+  text-decoration: underline;
 }
 
 .Card_Text_Supporting {
@@ -78,4 +95,9 @@
 
 .Card_Footer_Text_Head {
   color: white;
+}
+
+.Card_Footer_Text_Head:hover {
+  color: #00FFF8;
+  text-decoration: underline;
 }
